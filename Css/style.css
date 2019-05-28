@@ -1,0 +1,389 @@
+@charset "utf-8";
+@font-face{
+	font-family:'Myriad Pro';
+	src:url(../font/MYRIADPRO-BOLD.OTF);}
+@font-face{
+	font-family:'Roboto Bold';
+	src:url(../font/Roboto-Bold.ttf);}
+html,body{
+	font-size:14px;
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	max-width: 100%;	
+	background: white;
+    font-family: Roboto;
+}
+img{
+	max-width:100%;
+	
+}
+.navbar-light{
+	padding: 4px 0;
+	text-align: center;
+	background: white;
+	background-image: none;
+}
+.navbar-brand{
+
+	padding: 0.3rem 1rem;
+	font-size: 40px;
+    height: 65px;
+    line-height: 2px;
+    padding: 0px 0px;
+	font-family:Roboto;
+	margin: 0 200px 0 0;
+}
+
+#searchicon{
+		
+}
+.navbar_link{
+	style: normal;
+	line-height:80px;
+	font-weight:600;
+	font-family:Roboto regular;
+	font-size: 15px;
+	padding: 1rem 1rem;
+	color:#373737
+	}
+.tool_list{
+	
+	}
+.chp-title {
+    text-align: center;
+
+}/*#H2_3*/
+.chp-title-text {
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    text-decoration: none solid;
+    font: normal normal 300 normal 24px / 36px Roboto;
+}/*#A_4*/
+
+.homepage-item {
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    display: inline-block;
+    height: 401.175px;
+    left: 0px;
+    min-height: 1px;
+    position: relative;
+    right: 0px;
+    text-decoration: none solid rgb(85, 85, 85);
+    text-size-adjust: 100%;
+    top: 0px;
+    vertical-align: top;
+    width: 263.25px;
+    column-rule-color: rgb(85, 85, 85);
+    perspective-origin: 146.25px 222.875px;
+    transform-origin: 146.25px 222.875px;
+    caret-color: rgb(85, 85, 85);
+    border: 0px none rgb(85, 85, 85);
+    font: normal normal 400 normal 14px / 21px Roboto;
+    margin: 0px 0px 20px;
+    outline: rgb(85, 85, 85) none 0px;
+}/*#DIV_1*/
+
+.product-image {
+
+    height: 354.375px;
+    width: 236.25px;
+ 
+    box-sizing: border-box;
+    cursor: pointer;
+
+    max-width: 100%; 
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    font: normal normal 400 normal 14px / 21px Roboto;
+}/*#DIV_3*/
+
+.hp-np-product-image{
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 354.375px;
+    max-width: 100%;
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    width: 236.25px;
+    perspective-origin: 131.25px 196.875px;
+    transform-origin: 131.25px 196.875px;
+    font: normal normal 400 normal 14px / 21px Roboto;
+}/*#IMG_7*/
+
+
+.np-prod-index {
+    box-sizing: border-box;
+    color: rgb(55, 55, 55);
+    height: 22px;
+    text-align: center;
+    text-decoration: none solid rgb(55, 55, 55);
+    text-size-adjust: 100%;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 236.25px;
+    column-rule-color: rgb(55, 55, 55);
+    perspective-origin: 131.25px 11px;
+    transform-origin: 131.25px 11px;
+    caret-color: rgb(55, 55, 55);
+    border: 0px none rgb(55, 55, 55);
+    font: normal normal 400 normal 15px / 22.5px Roboto;
+    margin: 0px;
+    outline: rgb(55, 55, 55) none 0px;
+    overflow: hidden;
+}/*#H3_18*/
+.product-name {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    text-align: center;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-size-adjust: 100%;
+    white-space: nowrap;
+    column-rule-color: rgb(51, 51, 51);
+    perspective-origin: 0px 0px;
+    transform-origin: 0px 0px;
+    caret-color: rgb(51, 51, 51);
+    border: 0px none rgb(51, 51, 51);
+    font: normal normal 400 normal 15px / 22.5px Roboto;
+    outline: rgb(51, 51, 51) none 0px;
+}/*#A_19*/
+
+.product-price {
+    box-sizing: border-box;
+    color: rgb(68, 68, 68);
+    height: 20px;
+    text-align: center;
+    text-decoration: none solid rgb(68, 68, 68);
+    text-size-adjust: 100%;
+    width: 262.5px;
+    column-rule-color: rgb(68, 68, 68);
+    perspective-origin: 131.25px 10px;
+    transform-origin: 131.25px 10px;
+    caret-color: rgb(68, 68, 68);
+    border: 0px none rgb(68, 68, 68);
+    font: normal normal 600 normal 14px / 20px Roboto;
+    outline: rgb(68, 68, 68) none 0px;
+}/*#DIV_20*/
+
+.product-vnd {
+    box-sizing: border-box;
+    color: rgb(255, 0, 0);
+    display: inline-block;
+    height: 20px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 0, 0);
+    text-size-adjust: 100%;
+    width: 60.3594px;
+    column-rule-color: rgb(255, 0, 0);
+    perspective-origin: 30.1719px 10px;
+    transform-origin: 30.1719px 10px;
+    caret-color: rgb(255, 0, 0);
+    border: 0px none rgb(255, 0, 0);
+    font: normal normal 600 normal 14px / 20px Roboto;
+    margin: 0px 5px 0px 0px;
+    outline: rgb(255, 0, 0) none 0px;
+}/*#INS_21*/
+.row{
+	
+	}
+<!--Banner-sản phẩm nổi bật-->
+#IO1 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    height: 821.422px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    text-decoration: none solid rgb(85, 85, 85);
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 262.5px;
+    column-rule-color: rgb(85, 85, 85);
+    perspective-origin: 131.25px 410.703px;
+    transform-origin: 131.25px 410.703px;
+    caret-color: rgb(85, 85, 85);
+    border: 0px none rgb(85, 85, 85);
+    font: normal normal 400 normal 14px / 21px Roboto;
+    outline: rgb(85, 85, 85) none 0px;
+    padding: 25px;
+    transition: all 0.25s ease 0s;
+}/*#DIV_5*/
+
+#IC1 {
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    display: table-cell;
+    height: 771px;
+    text-decoration: none solid rgb(85, 85, 85);
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    width: 212px;
+    column-rule-color: rgb(85, 85, 85);
+    perspective-origin: 106px 385.5px;
+    transform-origin: 106px 385.5px;
+    caret-color: rgb(85, 85, 85);
+    border: 0px none rgb(85, 85, 85);
+    font: normal normal 400 normal 14px / 21px Roboto;
+    outline: rgb(85, 85, 85) none 0px;
+}/*#DIV_7*/
+#hp-banner-text1 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    height: 45px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    width: 212px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 106px 22.5px;
+    transform-origin: 106px 22.5px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 600 normal 30px / 45px Roboto;
+    margin: 0px 0px 10px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#H2_8*/
+#hp-banner-slogan1 {
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    height: 50px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    width: 212px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 106px 25px;
+    transform-origin: 106px 25px;
+    caret-color: rgb(255, 255, 255);
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 400 normal 14px / 25.2px Roboto;
+    margin: 0px 0px 50px;
+    outline: rgb(255, 255, 255) none 0px;
+}/*#P_9*/
+
+#hp-seeall-button1 {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    height: 40px;
+    left: 0px;
+    letter-spacing: 1px;
+    position: relative;
+    right: 0px;
+    text-align: center;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    top: 0px;
+    white-space: nowrap;
+    width: 137.328px;
+    column-rule-color: rgb(255, 255, 255);
+    perspective-origin: 68.6563px 20px;
+    transform-origin: 68.6563px 20px;
+    caret-color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    font: normal normal 600 normal 14px / 40px Roboto;
+    outline: rgb(255, 255, 255) none 0px;
+    padding: 0px 22px;
+    transition: all 0.2s ease-in-out 0s;
+}/*#A_10*/
+?/*---------------Sanpham--------------*/
+.banner-image{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+
+
+}
+.page-banner{
+    padding: 100px 100px 30px 100px;
+}
+/*product*/
+.img-product-image{
+    display: block; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+div.polaroid {
+  width: 500px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+}
+---------------------------------------
+/*Search*/
+/* The overlay effect with black background */
+.overlay {
+  height: 100%;
+  width: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9); /* Black with a little bit see-through */
+}
+
+/* The content */
+.overlay-content {
+  position: relative;
+  top: 46%;
+  width: 80%;
+  text-align: center;
+  margin-top: 30px;
+  margin: auto;
+}
+
+/* Close button */
+.overlay .closebtn {
+  position: absolute;
+  top: 100px;
+  right: 45px;
+  font-size: 60px;
+  cursor: pointer;
+  color: white;
+}
+
+.overlay .closebtn:hover {
+  color: #ccc;
+}
+
+/* Style the search field */
+.overlay input[type=text] {
+  padding: 15px;
+  font-size: 17px;
+  border: none;
+  float: left;
+  width: 80%;
+  background: white;
+}
+
+.overlay input[type=text]:hover {
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+.overlay button {
+  float: left;
+  width: 20%;
+  padding: 15px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.overlay button:hover {
+  background: #bbb;
+}
+
+--------------------
+/*end of SEARCH*/
+

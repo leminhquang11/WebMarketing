@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <title>SHOP MEO FÒUR</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../Css/style.css">
+  <link rel="stylesheet" href="../Css/Home_page-collection.css">
+  <link rel="stylesheet" href="../Css/search.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../Css/buttun.css">
+  <link rel="stylesheet" href="../Css/signup.css">
+  <link rel="stylesheet" href="../Css/test.css">  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="../js/script.js"></script>
+  <script src="../js/search.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+  
+  <div id="header"><!--Header start-->
+    <nav class="navbar navbar-fixed-top navbar-light" >
+        <div class="container" style="padding: 0">
+              <!--LOGO-->
+          <div class="navbar-header">
+              <a href="../Index.php" class="navbar-brand"><img src="../image/sss.jpg" style=" max-height: 70px";/></a>
+                    <!--<a href="#" class="navbar-brand"> MEO FOUR</a>-->
+          </div>
+                <!--LOGO END-->
+                <!--Thanh công cụ-->
+                <div class="navbar-collapse collapse" id="tool_list">
+            <ul class="nav navbar-nav" id="menu">
+                <li><a href="../Index.php" class="navbar_link" style ="color:black";>TRANG CHỦ</a></li>
+                <li>
+                          <a href="sanpham.php" class="navbar_link" data-toggle="dropdown" style ="color:black";>SẢN PHẨM<span class="caret"></span> </a>
+                          <ul class="dropdown-menu">
+                                <li><a href="aothun.php" class="navbar_droplist">Áo thun</a></li>
+                                <li><a href="hoddie.php" class="navbar_droplist">Hoddie</a></li>
+                                <li><a href="jacket.php" class="navbar_droplist">Jacket</a></li>
+                                <li><a href="quan.php" class="navbar_droplist">Quần</a></li>
+                                <li><a href="phukien.php" class="navbar_droplist">Phụ kiện </a></li>
+                                <li><a href="sanpham.php" class="navbar_droplist">Lọc sản phẩm</a></li>                                
+                          </ul>
+                                
+                </li> <!--Droplisst-->
+                <li><a href="khuyenmai.php" class="navbar_link" style ="color:black";>KHUYẾN MÃI</a></li>
+                <li><a href="lienhe.html" class="navbar_link" style ="color:black";>LIÊN HỆ</a></li>
+                <li><a href="gioithieu.html" class="navbar_link" style ="color:black";>GIỚI THIỆU</a></li>
+                <li style="padding-top: 1px" class="openCloseCart"><a class="top_icons";><img class="openCloseCart" aria-hidden="true" src="../image/shopping-cart-black-shape.png" style="max-width: 15px";/></a><span id="itemCount"></span></li>                                  
+            </ul>
+          </div>
+        </div>
+    </nav>
+  </div>
+
+  <div id="shoppingCart"><!--Cửa sổ Giỏ hàng-->
+    <div id="cartItemsContainer">
+        
+        <div class="row">
+          <div class="col-xs-6">
+          <h3 style="padding: -50px">Giỏ hàng của bạn</h3> <h4 id="cartTotal"></h4>
+          </div>
+          <div class="col-xs-6">
+            <a href="giohang.php">
+              <div class="clearfix" style="width: 350px">
+                <button type="submit" class="signupbtn" style="background: black">Xem giỏ hàng</button>
+              </div>
+            </a>
+          </div>
+        </div>
+
+      <i class="fa fa-times-circle-o fa-3x openCloseCart" aria-hidden="true"></i>
+      <div>
+        <div>
+          <div id="cartItems"></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" style="padding: 100px 0 0 0">
+    <div class="container clearfix">
+  <div class="page_title">
+    <h3>
+      Chính sách đổi trả
+    </h3>
+  </div>
+  <h4><strong><em>(Lưu ý : Hàng đã&nbsp;Sale (giảm giá)&nbsp;không đổi trả trong trường hợp phát sinh chủ quan từ phía khách hàng - Không nhận đổi&nbsp;trả hàng trong trường hợp khách hàng giao dịch trực tiếp tại cửa hàng,&nbsp;mua về không ưng ý muốn trả hàng)</em></strong></h4>
+<p>&nbsp;</p>
+<p><strong>1. Hàng giao không mới, không nguyên vẹn, sai nội dung hoặc bị thiếu</strong></p>
+<p>Chúng tôi khuyến khích quý khách hàng phải kiểm tra tình trạng bên ngoài của thùng hàng và sản phẩm trước khi thanh toán để đảm bảo rằng hàng hóa được giao đúng chủng loại, số lượng, màu sắc theo đơn đặt hàng và tình trạng bên ngoài không bị tác động.</p>
+<p>Nếu gặp trường hợp này, Quý khách vui lòng từ chối nhận hàng và/hoặc báo ngay cho bộ phận hỗ trợ khách hàng để chúng tôi có phương án xử lí kịp thời. (Xin lưu ý những bước kiểm tra sâu hơn như dùng thử sản phẩm chỉ có thể được chấp nhận sau khi đơn hàng được thanh toán đầy đủ).</p>
+<p>Sau 48h kể từ ngày quý khách nhận hàng, chúng tôi có quyền từ chối hỗ trợ cho những khiếu nại theo nội dung như trên.</p>
+<p>&nbsp;</p>
+<p><strong>2.&nbsp;Hàng giao bị lỗi, hoặc không vừa size</strong></p>
+<p>Khi quý khách gặp trục trặc với sản phẩm đặt mua của chúng tôi, vui lòng thực hiện các bước sau đây:</p>
+<p>- Bước 1: Kiểm tra lại sự nguyên vẹn của sản phẩm, chụp lại ảnh sản phẩm xuất hiện lỗi, hoặc báo size lệch</p>
+<p>- Bước 2: Quý khách liên hệ với cửa hàng&nbsp;của chúng tôi để được xác nhận</p>
+<p>- Bước 3: Trong vòng 30 ngày kể từ ngày nhận hàng, nếu quý khách được xác nhận từ bộ phận&nbsp;chăm sóc khách hàng rằng sản phẩm bị lỗi kỹ thuật, quý khách vui lòng truy cập ngay hotline của shop hoặc fanpage&nbsp;để bắt đầu quy trình đổi trả hàng</p>
+<p>&nbsp;</p>
+<p><strong>3. Phương thức hoàn tiền</strong></p>
+<p>Tùy theo lí do hoàn trả sản phẩm kết quả đánh giá chất lượng tại kho, chúng tôi sẽ có những phương thức hoàn tiền với chi tiết như sau:</p>
+<p>- Hoàn tiền hàng trong trường hợp lỗi phát sinh từ cửa hàng.</p>
+<p>- Đổi sản phẩm mới cùng loại với khách hàng có nhu cầu trong trường hợp lỗi từ phía cửa hàng.</p>
+<p>- Chuyển khoản qua ngân hàng theo thông tin của quý khách cung cấp</p>
+<p>- Riêng đối với các đơn hàng thanh toán qua thẻ tín dụng quốc tế, chúng tôi sẽ áp dụng hình thức hoàn tiền vào tài khoản thanh toán của chủ thẻ</p>
+<p>- Hoàn tiền mặt trực tiếp tại cửa hàng giao dịch.</p>
+<p>Mọi chi tiết hoặc thắc mắc quý khách vui lòng liên hệ với chúng tôi qua số điện thoại hỗ trợ hoặc để lại lời nhắn tại website hay Fanpage.</p>
+<p>Xin chân thành cảm ơn.</p>
+</div>
+
+  </div>
+  <script src="../js/cart.js"></script> <!--giỏ hàng js-->
+  
+  <div id="myOverlay" class="overlay"><!--search php-->
+      <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+      <div class="overlay-content">
+        <form action="/action_page.php">
+          <input style="min-height:60px " type="text" placeholder="Search.." name="search">
+          <button type="submit"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+  </div>
+
+</div>
+</body>
+<!--Footer-->
+<footer class="page-footer font-small elegant-color-dark pt-4" style="background-color: #232323";><!-- Footer Links -->
+  <div class="container-fluid text-center text-md-left"> <!-- Grid row -->
+    <div class="row" style="padding: 20px 20px 20px 75px;">
+      <div class="col-md-3 mt-md-0 mt-3" style="color: #FFFFFF";><!-- LOGO -->
+        <h2 class="text-uppercase" style="text-align: center";>MÈO FOUR SHOP</h2>
+        <p>MÈO FOUR SHOP được triển khai với mong muốn khách hàng sẽ tự mua hàng, đặt hàng hoàn toàn tự động trên website mà không cần nhân viên tư vấn. Với các mặt hàng đa dạng phong phú, mát mẻ thời trang phong cách hàn guốc</p>
+      </div>
+      <div class="col-md-3 mt-md-0 mt-3" style="color: #FFFFFF";><!-- Hệ thống cửa hàng -->
+        <h4 class="text-uppercase" style="text-align: center";>HỆ THỐNG CỬA HÀNG</h4>
+        <p>Với hệ thống bán hàng Online cùng nhiều chi nhánh cửa hàng tại các tỉnh, thành phố lớn</p>
+        <p>
+          <img alt="address" src="../image/pre_footer_address_icon.png">
+              <span>9 Ngõ 41 Phố Vọng, Hai Bà Trưng, Hà Nội</span> 
+        </p>
+        <p>
+              <img alt="address" src="../image/pre_footer_address_icon.png">
+              <span>7 Tạ Quang Bửu, Hai Bà Trưng, Hà Nội</span> 
+        </p>
+        <p>
+              <img alt="email" src="../image/pre_footer_email_icon.png">
+              <a href="mailto:meo4shop@gmail.com" style="color: #FFFFFF";>meo4shop@gmail.com</a>
+        </p>
+      </div>
+       <div class="col-md-2 mb-md-0 mb-3" style="text-align: left"><!-- Giới thiệu -->  
+        <h4 class="text-uppercase" style="color: #FFFFFF";>GIỚI THIỆU</h4>
+          <ul class="list-unstyled" >
+            <li>
+              <p>
+                <img alt="address" src="../image/widget-link.png">
+                <a href="../Index.php" style="color: #FFFFFF">Trang chủ</a> 
+              <p>
+            </li>
+            <li>
+              <p>
+                <img alt="address" src="../image/widget-link.png">
+                <a href="sanpham.php" style="color: #FFFFFF">Sản phẩm</a> 
+                <p>
+            </li>
+            <li>
+              <p>
+                <img alt="address" src="../image/widget-link.png">
+                <a href="khuyenmai.php" style="color: #FFFFFF">Khuyến mãi</a> 
+              <p>
+            </li>
+            <li>
+              <p>
+                <img alt="address" src="../image/widget-link.png">
+                <a href="gioithieu.html" style="color: #FFFFFF">Giới thiệu</a> 
+              <p>
+            </li>
+            <li>
+              <p>
+                <img alt="address" src="../image/widget-link.png">
+                <a href="lienhe.html" style="color: #FFFFFF">Liên hệ</a> 
+              <p>
+            </li>
+          </ul>
+      </div>
+      <div class="col-md-2 mb-md-0 mb-3" style="text-align: left" ><!-- Hướng dẫn -->
+        <h4 class="text-uppercase" style="color: #FFFFFF";>HƯỚNG DẪN</h4>
+          <ul class="list-unstyled">
+            <li>
+              <p>
+                <img alt="address" src="../image/widget-link.png">
+                <a href="huongdanmuahang.html"  style="color: #FFFFFF">Hướng dẫn mua hàng</a> 
+              </p>
+            </li>
+            <li>
+              <p>
+                <img alt="address" src="../image/widget-link.png">
+                <a href="chinhsachthanhtoan.html" style="color: #FFFFFF">Chính sách thanh toán</a> 
+              </p>
+            </li>
+            <li>
+              <p>
+                <img alt="address" src="../image/widget-link.png">
+                <a href="chinhsachvanchuyen.html"  style="color: #FFFFFF">Chính sách vận chuyển</a> 
+              </p>
+            </li>
+            <li>
+              <p>
+                <img alt="address" src="../image/widget-link.png">
+                <a href="chinhsachdoitra.html" style="color: #FFFFFF">Chính sách đổi trả</a> 
+              </p>
+            </li>
+            <li>
+              <p>
+                <img alt="address" src="../image/widget-link.png">
+                <a href="bangsize.html" style="color: #FFFFFF">Bảng SIZE</a> 
+              </p>
+            </li>
+          </ul>
+
+        </div>
+          <!-- Grid column -->
+      </div>
+      <!-- Grid row -->
+    </div>
+
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3" style="background-color:#1F1F1F">
+      <div style="min-height: 40px;">
+        <div align="left">
+          <div style="padding: 5px 5px 5px 75px">
+            <h5 style="color: #FFFFFF">     © 2018 Copyright: Bản quyền thuộc về Mèo Four Team </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Copyright -->
+
+</footer>
+  <!-- Footer -->
+</html>

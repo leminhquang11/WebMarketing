@@ -1,0 +1,80 @@
+
+}
+#chp-row {
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    text-decoration: none solid rgb(85, 85, 85);
+    font: normal normal 400 normal 14px / 21px Roboto;
+}
+.chp-link {
+    box-sizing: border-box;
+    text-size-adjust: 100%;
+    font: normal normal 400 normal 14px / 21px Roboto;
+}
+.chp-item-text{
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    height: 27px;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-size-adjust: 100%;
+    max-width: 150.328px;
+    border: 0px none rgb(255, 255, 255);
+    font: normal normal 600 normal 18px / 27px Roboto;
+    margin: 40px 0px 0px 45px;
+    outline: rgb(255, 255, 255) none 0px;
+    transition: left 0.4s ease 0s;
+}
+.chp-item{
+    box-sizing: border-box;
+    color: rgb(85, 85, 85);
+    height: 231px;
+    min-height: 1px;
+    position: relative;
+    text-decoration: none solid rgb(85, 85, 85);
+    text-size-adjust: 100%;
+    width: 361px;
+
+    border: 0px none rgb(85, 85, 85);
+    font: normal normal 400 normal 14px / 21px Roboto;
+    padding: 0px 15px;
+    margin : 0 auto;
+}
+
+
+.chp-itemtt {
+    box-sizing: border-box;
+    height: 231px;
+    position: relative;
+    text-decoration: none solid rgb(85, 85, 85);
+    text-size-adjust: 100%;
+    width: 361px;
+    border: 0px none rgb(85, 85, 85);
+    font: normal normal 400 normal 14px / 21px Roboto;
+}
+
+.chp-image {
+    box-sizing: border-box;
+    cursor: pointer;
+    max-width: 100%; 
+    text-size-adjust: 100%;
+    vertical-align: middle;
+    font: normal normal 400 normal 14px / 21px Roboto;
+}
+
+
+.chp-text {
+    bottom: 0px;
+    box-sizing: border-box;
+    cursor: pointer;
+    height: 231px;
+    left: 0px;
+    position: absolute;
+    right: 0px;
+    text-size-adjust: 100%;
+    top: 0px;
+    width: 361px;
+    background: rgba(0, 0, 0, 0.2) none repeat scroll 0% 0% / auto padding-box border-box;
+    font: normal normal 400 normal 14px / 21px Roboto;
+    padding: 25px;
+    transition: all 0.25s ease 0s;
+}

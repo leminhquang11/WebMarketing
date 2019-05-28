@@ -1,0 +1,17 @@
+@charset "utf-8";
+#doanvan1{
+	font-weight:bold;
+	font-size:50px;
+}
+#doanvan2{
+	font-weight:light;
+	font-size:20px;
+	color:#03F;
+}
+
+body{
+	margin:30px;
+	}
+.NewCss{
+	background-color:#9FC
+	}
